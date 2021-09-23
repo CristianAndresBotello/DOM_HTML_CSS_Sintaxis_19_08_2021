@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;700&display=swap');
+body{
+    font-family: century gothic,'Roboto', sans-serif;
+    font-weight: 300;
+    background-color: whitesmoke;
+}
+h1{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    text-align: center;
+    text-transform: uppercase;
+}
+h1::before{
+    content: "+ ";
+}
+h1::after{
+    content: " +";
+}
+h1::selection{
+    background-color: #dc3545;
+    color: #ffffff;
+}
+hr{
+    border-color: tomato;
+}
+blockquote{
+
+    border-radius: 0em 0em 2.5em;
+    background-color: rgb(199, 194, 194);
+    border-right: 5px solid orangered;
+    padding: .5em;
+}
+blockquote abbr, blockquote u{
+    font-family: sans-serif;
+    text-decoration: none;
+}
+blockquote abbr:hover, blockquote u:hover{
+    color: #252525;
+    font-weight: bold;
+    cursor: progress;
+}
+blockquote abbr::selection, blockquote u cite q::selection{
+    background-color: #ffc107;
+    color: #ffffff;
+}
+blockquote b::selection, blockquote address::selection{
+    background-color: orangered;
+    color: #ffffff;
+}
+
+blockquote address b{
+    font-style: normal;
+    font-family: sans-serif;
+}
